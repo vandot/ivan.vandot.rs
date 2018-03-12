@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(102, 51, 0, 0.5) 5%, rgba(153, 76, 0, 0.35)), url("images/background/bg.jpg");
+  background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(102, 51, 0, 0.5) 5%, rgba(153, 76, 0, 0.35)), url("images/background/bg.jpg");
+  background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(102, 51, 0, 0.5) 5%, rgba(153, 76, 0, 0.35)), url("images/background/bg.jpg");
+  background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(102, 51, 0, 0.5) 5%, rgba(153, 76, 0, 0.35)), url("images/background/bg.jpg");
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-size: 100px 100px, cover, cover;
+  background-position: top left, center center, bottom center;
+  background-attachment: fixed, fixed, fixed; }
+
+  a:hover {
+    color: #85144b;
+    text-decoration: underline; }
+
+  ul.icons li a:hover:before {
+    text-shadow: 1.25px 0px 0px #85144b, -1.25px 0px 0px #85144b, 0px 1.25px 0px #85144b, 0px -1.25px 0px #85144b; }
+
+  ul.icons li a:hover {
+    border-color: #85144b; }
+    
+  .button:hover {
+    border-color: #85144b;
+    color: #85144b !important; }
+
+  textarea:focus {
+    border-color: #85144b; }
