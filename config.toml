@@ -2,10 +2,12 @@ baseurl = "https://ivan.vandot.rs/"
 theme = "cocoa-eh"
 themesDir = "themes"
 
+disableKinds = ["taxonomyTerm"]
+
 builddrafts = true
 canonifyurls = true
 contentdir = "content"
-languageCode = "en-US"
+languageCode = "en"
 layoutdir = "layouts"
 publishdir = "public"
 author = "Ivan Vandot"
@@ -28,7 +30,7 @@ faviconfile = "img/logo.png"
 highlightjs = true
 progressively = true
 align_left = false
-lang = "en"
+lang = "en-US"
 github = "vandot"
 linkedin = "ivandot"
 twitter = "vandot"
