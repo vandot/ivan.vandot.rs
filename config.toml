@@ -1,62 +1,36 @@
-baseurl = "https://ivan.vandot.rs"
-languageCode = "en-us"
-title = "Ivan Vandot"
-theme = "hugo-identity-theme"
-themesDir = "themes"
+baseurl = "https://ivan.vandot.rs/"
+theme = "cocoa-eh"
 
-disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+builddrafts = true
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Ivan Vandot"
+title = "Ivan Vandot"
+disqusshortname = ""
+pluralizelisttitles = false
 
 googleAnalytics = "UA-99654897-1"
 
+[permalinks]
+blog = "blog/:slug/"
+
 [params]
-  
-  # Site icons
-  favicon_ico = "favicon.ico"
-  favicon_ico_sizes = "16x16 32x32"
-
-  custom_css = ["custom.css"]
-
-  [params.personal]
-    name = "Ivan Vandot"
-    avatar = "vandot.jpg"
-    position = "System Engineer"
-    livesIn = "[St. Gallen, Switzerland](https://www.openstreetmap.org/#map=13/47.4241/9.3420)"
-    scope = [
-        "IT Operations/Security team member at [Advertima](https://advertima.com/)"
-      ]
-    biography = """Ivan Vandot is plain awesome. He uses Python, Go and Bash for system and process automation."""
-
-  [params.contact]
-    enable = false
-
-  [[params.social]]
-    title = "Twitter"
-    icon = "fa-twitter"
-    link = "https://twitter.com/vandot"
-
-  [[params.social]]
-    title = "LinkedIn"
-    icon = "fa-linkedin"
-    link = "https://www.linkedin.com/in/ivandot"
-    
-  [[params.social]]
-    title = "Github"
-    icon = "fa-github"
-    link = "https://github.com/vandot"
-
-  [params.footer]
-    copyright = "Ivan Vandot"
-
-  [params.license]
-    link = "https://opensource.org/licenses/BSD-3-Clause"
-    name = "BSD-3-Clause"
-
-  [[params.credits]]
-    title = "HTML5UP"
-    text = "Design by"
-    link = "https://html5up.net"
-
-  [[params.credits]]
-    title = "Hugo"
-    text = "Powered by"
-    link = "https://gohugo.io/"
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "Blog"
+copyright = "Copyright © 2018 Ivan Vandot"
+logofile = "img/vandot.png"
+faviconfile = "img/logo.png"
+highlightjs = true
+progressively = true
+align_left = false
+lang = "en"
+github = "vandot"
+linkedin = "ivandot"
+twitter = "vandot"
+social_banner = "img/logo.png"
+posts_navigation = true
+small_banner_logo = true
