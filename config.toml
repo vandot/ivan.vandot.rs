@@ -1,5 +1,6 @@
 baseurl = "https://ivan.vandot.rs/"
 theme = "cocoa-eh"
+themesDir = "themes"
 
 builddrafts = true
 canonifyurls = true
