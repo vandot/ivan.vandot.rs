@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-System Engineer currently living in [St. Gallen, Switzerland](https://www.openstreetmap.org/#map=13/47.4241/9.3420).
+System Engineer from [Belgrade, Serbia](https://www.openstreetmap.org/relation/2728438).
 
 IT Operations/Security team member at [Advertima](https://advertima.com/).
 
