@@ -12,7 +12,7 @@ pygmentsUseClasses = true
 
 [params]
     author = "Ivan Vandot"
-    avatar = "vandot.png"
+    avatar = "vandot.webp"
     description = "Python, Go and Bash for system and process automation"
     tagline = "Python, Go and Bash for system and process automation."
 
