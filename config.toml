@@ -1,40 +1,24 @@
-baseurl = "https://ivan.vandot.rs/"
-theme = "cocoa-eh"
-themesDir = "themes"
-
-disableKinds = ["taxonomyTerm"]
-
-builddrafts = true
-canonifyurls = true
-contentdir = "content"
-languageCode = "en"
-layoutdir = "layouts"
-publishdir = "public"
-author = "Ivan Vandot"
+baseURL = "https://ivan.vandot.rs/"
 title = "Ivan Vandot"
-disqusshortname = ""
-pluralizelisttitles = false
+theme = "hugo-tailwind-journal"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
-googleAnalytics = "UA-99654897-1"
+[taxonomies]
+    tag = "tags"
 
 [permalinks]
-blog = "blog/:slug/"
+    posts = "/posts/:year/:month/:title/"
 
 [params]
-dateform = "Jan 2, 2006"
-dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "Blog"
-#disablefancyfonts = true
-copyright = "Copyright © 2018 Ivan Vandot"
-logofile = "img/vandot.png"
-faviconfile = "img/logo.png"
-highlightjs = true
-progressively = true
-align_left = false
-lang = "en-US"
-github = "vandot"
-linkedin = "ivandot"
-twitter = "vandot"
-social_banner = "img/logo.png"
-posts_navigation = true
-small_banner_logo = true
+    author = "Ivan Vandot"
+    avatar = "vandot.png"
+    description = "Python, Go and Bash for system and process automation"
+    tagline = "Python, Go and Bash for system and process automation."
+
+[languages]
+    [languages.en]
+        contentDir = "content/english"
+        languageCode = "en-us"
+        languageName = "🇺🇸 English"
+        weight = 1
